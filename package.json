@@ -1,0 +1,30 @@
+{
+  "name": "cypress-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "ci": "cypress run --reporter mocha-multi-reporters --reporter-options configFile=config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyajan/cypress-sample.git"
+  },
+  "keywords": [
+    "test",
+    "cypress"
+  ],
+  "author": "miyajan <miyajan777@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miyajan/cypress-sample/issues"
+  },
+  "homepage": "https://github.com/miyajan/cypress-sample",
+  "devDependencies": {
+    "cypress": "^1.2.0",
+    "mocha": "^4.0.1",
+    "mocha-junit-reporter": "^1.15.0",
+    "mocha-multi-reporters": "^1.1.7"
+  }
+}
