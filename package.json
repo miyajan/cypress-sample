@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "ci": "cypress run --reporter mocha-multi-reporters --reporter-options configFile=config.json"
+    "ci": "cypress run --record --reporter mocha-multi-reporters --reporter-options configFile=config.json"
   },
   "repository": {
     "type": "git",
